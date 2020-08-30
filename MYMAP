@@ -1,0 +1,6 @@
+function initautocomplete() {
+const map = new google.maps.Map(document.getElementByID("googleMap"),{
+center: { lat:-33.8688, lng:150.2195},
+zoom:12,
+mapTYPEId: "roadmap"
+});
